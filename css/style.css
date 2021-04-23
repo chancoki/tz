@@ -45,7 +45,7 @@
 }
 .dright{
   border-top-left-radius: 40px;
-}
+  margin-left: 3px;
 }
 .yao{
   height: 25vh;
