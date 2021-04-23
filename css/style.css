@@ -64,7 +64,7 @@
 }
 .hide{
   height: 50vh;
-  width: 50vh;
+  width: 100vw;
   background-color: #262A33;
   position: absolute;
   text-align: center;
