@@ -2,17 +2,17 @@ function changImg(r) {
   // console.log(r);
   switch (r) {
     case 1:
-      return "../img/t1.png";
+      return "./img/t1.png";
     case 2:
-      return "../img/t2.png";
+      return "./img/t2.png";
     case 3:
-      return "../img/t3.png";
+      return "./img/t3.png";
     case 4:
-      return "../img/t4.png";
+      return "./img/t4.png";
     case 5:
-      return "../img/t5.png";
+      return "./img/t5.png";
     case 6:
-      return "../img/t6.png";
+      return "./img/t6.png";
   }
 }
 function random() {
