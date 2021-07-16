@@ -34,19 +34,40 @@ var tz=qs('.tz')
 var flag = true;
 var check = true;
 // var hide=document.querySelector('')
+function touz() {
+  up3.children[0].src = changImg(random());
+  up3.children[1].src = changImg(random());
+  up3.children[2].src = changImg(random());
+  up2.children[0].src = changImg(random());
+  up2.children[1].src = changImg(random());
+}
 yao.addEventListener("click", () => {
   if (check) {
-    tz.play()
-    let t1 = random();
-    let t2 = random();
-    let t3 = random();
-    let t4 = random();
-    let t5 = random();
-    up2.children[0].src = changImg(t1);
-    up2.children[1].src = changImg(t2);
-    up3.children[0].src = changImg(t3);
-    up3.children[1].src = changImg(t4);
-    up3.children[2].src = changImg(t5);
+    tz.play();
+    setTimeout(() => {
+      touz()
+      setTimeout(() => {
+        touz()
+        setTimeout(() => {
+          touz()
+          setTimeout(() => {
+            touz()
+            setTimeout(() => {
+              touz()
+              setTimeout(() => {
+                touz()
+                setTimeout(() => {
+                  touz()
+                  setTimeout(() => {
+                    touz()
+                  }, 210);
+                }, 210);
+              }, 210);
+            }, 210);
+          }, 210);
+        }, 210);
+      }, 210);
+    }, 210);
   }
 });
 dleft.addEventListener("click", () => {
